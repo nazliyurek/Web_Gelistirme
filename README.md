@@ -52,3 +52,6 @@ Adım 3: Projeyi yerel sunucuda ayağa kaldırmak için şu komutu çalıştır�
 npm run dev
 
 Adım 4: Terminalde verilen yerel bağlantıyı (http://localhost:5173) tarayıcınıza kopyalayarak uygulamayı kullanmaya başlayabilirsiniz.
+
+## 🔗 Canlı Önizleme (Live Demo)
+Projenin çalışan haline buradan ulaşabilirsiniz: [Netlify Canlı Site](https://nazli-todolist.netlify.app)
