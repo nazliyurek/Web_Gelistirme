@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import TodoForm from '../components/TodoForm';
-import TodoList from '../components/TodoList';
+import ToDoForm from '../Components/ToDoForm';
+import ToDoList from '../Components/ToDoList';
 import { createTodoItem } from '../Interfaces/todo';
 
 function TodoPage() {
@@ -93,7 +93,7 @@ function TodoPage() {
 
               <div className="card-body p-4">
                 {/* Form Bileşeni */}
-                <TodoForm
+                <ToDoForm
                   text={text}
                   setText={setText}
                   handleSubmit={handleSubmit}
@@ -126,7 +126,7 @@ function TodoPage() {
                 </div>
 
                 {/* Liste Bileşeni */}
-                <TodoList
+                <ToDoList
                   filteredTodos={filteredTodos}
                   toggleComplete={toggleComplete}
                   handleEditClick={handleEditClick}

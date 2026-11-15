@@ -1,4 +1,4 @@
-function TodoList({ filteredTodos, toggleComplete, handleEditClick, handleDelete }) {
+function ToDoList({ filteredTodos, toggleComplete, handleEditClick, handleDelete }) {
   if (filteredTodos.length === 0) {
     return (
       <div className="text-center text-muted py-5 border-top">
@@ -58,4 +58,4 @@ function TodoList({ filteredTodos, toggleComplete, handleEditClick, handleDelete
   );
 }
 
-export default TodoList;
+export default ToDoList;

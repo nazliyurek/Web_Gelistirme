@@ -1,4 +1,4 @@
-function TodoForm({ text, setText, handleSubmit, isEditing, handleCancelEdit }) {
+function ToDoForm({ text, setText, handleSubmit, isEditing, handleCancelEdit }) {
   return (
     <form onSubmit={handleSubmit} className="mb-4">
       <div className="input-group input-group-lg shadow-sm rounded-3 overflow-hidden border">
@@ -40,4 +40,4 @@ function TodoForm({ text, setText, handleSubmit, isEditing, handleCancelEdit }) 
   );
 }
 
-export default TodoForm;
+export default ToDoForm;
