@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import TodoForm from '../Components/TodoForm';
-import TodoList from '../Components/TodoList';
+import TodoForm from '../components/TodoForm';
+import TodoList from '../components/TodoList';
 import { createTodoItem } from '../Interfaces/todo';
 
 function TodoPage() {
